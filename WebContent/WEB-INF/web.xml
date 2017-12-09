@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+  <display-name>jsp/servlet学习</display-name>
+  <servlet>
+    <servlet-name>add</servlet-name>
+    <servlet-class>com.projest.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>delete</servlet-name>
+    <servlet-class>com.projest.AddServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>select</servlet-name>
+    <servlet-class>com.projest.SelectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>select</servlet-name>
+    <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>update</servlet-name>
+    <servlet-class>com.projest.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.projest.Test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>test2</servlet-name>
+    <servlet-class>com.projest.Test2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test2</servlet-name>
+    <url-pattern>/test2</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>import</servlet-name>
+    <servlet-class>com.projest.Import</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>import</servlet-name>
+    <url-pattern>/import</url-pattern>
+  </servlet-mapping>
+</web-app>
